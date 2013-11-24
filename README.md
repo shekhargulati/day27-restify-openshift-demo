@@ -1,3 +1,5 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+## Restify on OpenShift##
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-nodejs/README.md
+```
+$ rhc create-app day27demo nodejs-0.10 mongodb-2 --from-code 
+```
